@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Henriks Profil - Webbdesign</title>
 </head>
 
@@ -27,34 +27,40 @@
         </nav>
 
 
+<div class="Flexbox">
+    <h1 id="H-h1">Henriks Profil!</h1>
 
-
-    <h1>Henriks Profil!</h1>
-    <section id="H-om">
-        <h2>Om mig</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quam maiores facilis sunt numquam soluta nobis beatae quae! Provident numquam quidem nostrum sapiente maxime. Voluptates dolorum rem ipsum facere ipsa.</p>
-    </section>
+<section id="H-om">
+    <div class="text-content">
+        <h2>Vem är jag?</h2>
+        <p>Glad pöjke med kastanjebruna ögon som söker någon med glöden kvar, gillar promenader och att kasta sten på en stilla vatten</p>
+        <p>Mina vänner beskriver mig som en bad boi, men det tycker jag inte stämmer då jag inte funnit någon än som fått mitt hjärta att smälta</p>
+        <p>Finns inget bättre än att känna magin över i fingertopparna när man håller en hand medans man vandrar runt sjön min.</p>
+    </div>
+    <img src="Bearimgs/AI-boi.png" alt="Description of image" />
+</section>
 
     <section id="H-Färdigheter">
-        <h2>Superkrafter</h2>
-        <ul>
-            <li>1.</li>
-            <li>2.</li>
-            <li>3.</li>
-        </ul>
+        <div class="text-content">
+            <h2>Erfarenhet</h2>
+            <li>Proffesionel hundspannsförare</li>
+            <li>Vinnare i rask rundsjögång</li>
+            <li>Varit på över 100 dejter</li>
+        </div>
     </section>
 
-    <section id="H-Erfarenhet">
-        <h2>Erfarenhet</h2>
-        <p>Information about your professional and academic experience.</p>
-    </section>
-
-    <section id="H-kontakta">
-        <h2>Kontakta mig</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, incidunt.</p>
-    </section>
-
-
+<section id="H-kontakta">
+    <div class="text-content">
+        <h2>Kontakta Mig</h2>
+        <p>Endast flickor!</p>
+        <form action="your-server-side-script.php" method="POST">
+            <label for="email">Din E-post:</label>
+            <input type="email" id="email" name="email" required>
+            <input type="submit" value="Skicka">
+        </form>
+    </div>
+</section>
+</div>
     <footer>
         <p>Copyright &copy; 2023 Henrik Pedersen</p>
     </footer>

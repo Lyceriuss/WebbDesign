@@ -3,14 +3,19 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(14, 13, 13);
-    color: #8d9892;
-    text-align: center;
+    color: #426c5e;
 }
 
 h1 {
-    color: #444;
+    text-align: center;
+    color: #100c0c;
     background-color: #631c1c;
     padding: 20px;
+}
+h2 {
+    color: #100c0c;
+    background-color: #631c1c;
+    align-items: flex-start;
 }
 
 .navbar {
@@ -20,6 +25,9 @@ h1 {
     background-color: #333;
     color: white;
     padding: 10px 20px;
+}
+footer{
+    text-align: center;
 }
 
 .navbar-brand {
@@ -58,16 +66,50 @@ h1 {
     text-decoration: none;
     font-size: 1.5em;
     padding: 10px 20px;
-        /* Add padding for larger clickable area */
     
 }
 .nav-list li a.active {
     text-decoration: underline;
-    
-    /* This creates the underline effect */
-    /* You can also use border-bottom if you want more control over the style */
-    /* Example: border-bottom: 2px solid white; */
+
 }
+
+
+
+#H-om {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+#H-om h2{
+    font-size: 2rem;
+    display: flex-start;
+    align-items: center;
+    justify-content: space-between;
+        
+}
+#H-om p {
+    font-size: 1.5rem;
+    max-width: 50%;
+    max-height: 90%;
+
+}
+
+#H-om img {
+    max-width: 50%;
+    align-items: flex-end;
+    height: auto;
+}
+#H-Färdigheter{
+    text-align: center;
+    font-size: 2rem;
+}
+#H-Färdigheter p{
+    text-align: flex-start;
+    font-size: 2rem;
+}
+
 @media screen and (max-width: 768px) {
     .nav-list {
         display: none;
@@ -88,4 +130,6 @@ h1 {
     .nav-toggle {
         display: block;
     }
+
+
 }
