@@ -5,31 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Styles.css">
     <title>Björns Profil - Webbdesign</title>
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-image: none; /* snygg bakgrund? (cats? ferrets are kinda cool right?) */
+        }
+
+        .list-container {
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .list-container ul {
+            list-style-type: none; 
+            padding: 0;
+            margin: 0;
+        }
+
+        .list-container li {
+            margin-bottom: 5px;
+            position: relative;
+        }
+
+        .list-container li::before,
+        .list-container li::after {
+            content: "\2022"; 
+            color: #000; 
+            display: inline-block;
+            width: 1em; 
+            margin-right: 0.5em;
+        }
+
+    </style>
 </head>
+
 <body class="bjorns-page">
     <nav class="navbar">
-        <div class="navbar-brand">WebbuSignu</div>
-        <button class="nav-toggle" id="navToggle">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-        <ul class="nav-list" id="navList">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="Henrik.html">Henrik</a></li>
-            <li><a href="Milton.html">Milton</a></li>
-            <li><a href="Bjorn.html">Björn</a></li>
-            <li><a href="Samir.html">Samir</a></li>
-        </ul>
+        <!-- Your navbar content -->
     </nav>
-    <h1>Presentation Björn</h1>
+    <h1>Presentation Björn Lagerblad</h1>
     <div><img src="Bearimgs/hellobear.gif" /></div>
     <h2>En kort sammanfattning om mig</h2>
+
+    <div class="list-container">
+        <ul>
+            <li>Cognac > Whiskey</li>
+            <li>Tidigare restaurang konsult</li>
+            <li>Döpt efter ett djur och en krydda!</li>
+        </ul>
+    </div>
     
-        <li>Cognac > Whiskey</li>
-        <li></li>
-        <li>Tredje raden</li> 
-        <li>Sista raden</li>
-    
+    <p>asdasdasda</p>
+
 </body>
 </html>
