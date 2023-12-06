@@ -61,6 +61,13 @@ h1 {
         /* Add padding for larger clickable area */
     
 }
+.nav-list li a.active {
+    text-decoration: underline;
+    
+    /* This creates the underline effect */
+    /* You can also use border-bottom if you want more control over the style */
+    /* Example: border-bottom: 2px solid white; */
+}
 @media screen and (max-width: 768px) {
     .nav-list {
         display: none;
