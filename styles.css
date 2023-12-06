@@ -12,6 +12,7 @@ h1 {
     background-color: #631c1c;
     padding: 20px;
 }
+
 h2 {
     color: #100c0c;
     background-color: #631c1c;
@@ -26,8 +27,15 @@ h2 {
     color: white;
     padding: 10px 20px;
 }
-footer{
+
+footer {
     text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .navbar-brand {
@@ -58,7 +66,6 @@ footer{
 
 .nav-list li {
     padding: 0 15px;
-
 }
 
 .nav-list li a {
@@ -66,34 +73,29 @@ footer{
     text-decoration: none;
     font-size: 1.5em;
     padding: 10px 20px;
-    
 }
+
 .nav-list li a.active {
     text-decoration: underline;
-
 }
-
-
 
 #H-om {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-
 }
 
-#H-om h2{
+#H-om h2 {
     font-size: 2rem;
     display: flex-start;
     align-items: center;
     justify-content: space-between;
-        
 }
+
 #H-om p {
     font-size: 1.5rem;
     max-width: 50%;
     max-height: 90%;
-
 }
 
 #H-om img {
@@ -101,11 +103,13 @@ footer{
     align-items: flex-end;
     height: auto;
 }
-#H-Färdigheter{
+
+#H-Färdigheter {
     text-align: center;
     font-size: 2rem;
 }
-#H-Färdigheter p{
+
+#H-Färdigheter p {
     text-align: flex-start;
     font-size: 2rem;
 }
@@ -130,6 +134,4 @@ footer{
     .nav-toggle {
         display: block;
     }
-
-
 }
