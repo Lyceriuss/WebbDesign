@@ -16,10 +16,11 @@
             padding: 10px;
             border-radius: 5px;
             margin-top: 10px;
+            text-align: center;
         }
 
         .list-container ul {
-            list-style-type: none; 
+            list-style-type: none;
             padding: 0;
             margin: 0;
         }
@@ -31,13 +32,22 @@
 
         .list-container li::before,
         .list-container li::after {
-            content: "\2022"; 
-            color: #000; 
+            content: "\2022";
+            color: #000;
             display: inline-block;
-            width: 1em; 
+            width: 1em;
             margin-right: 0.5em;
         }
 
+        .list-container .bold-text {
+            font-weight: bold;
+        }
+
+        .navbar {
+            /* Add your navbar styles here */
+        }
+
+        /* Add your other styles as needed */
     </style>
 </head>
 
@@ -57,7 +67,13 @@
         </ul>
     </div>
     
-    <p>asdasdasda</p>
-
+    <div class="list-container">
+        <p>
+            <em>"It's important to note that preferences for beverages, including Cognac and Whiskey, are highly subjective and vary from person to person. 
+            Some individuals may prefer the taste and characteristics of Cognac, while others may favor Whiskey. 
+            Ultimately, it comes down to personal taste and individual preferences in the realm of alcoholic beverages."</em>
+            <strong class="bold-text"> - One of the many times ChatGPT is subjectively wrong. </strong>
+        </p>
+    </div>
 </body>
 </html>
