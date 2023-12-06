@@ -6,7 +6,11 @@
     <link rel="stylesheet" href="Styles.css">
     <title>Björns Profil - Webbdesign</title>
     <style>
-        body {
+        body 
+        {
+
+
+            
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             background-image: none; /* snygg bakgrund? (cats? ferrets are kinda cool right?) */
         }
@@ -43,15 +47,28 @@
             font-weight: bold;
         }
 
-        .navbar {
-            /* Add your navbar styles here */
-        }
-
-        /* Add your other styles as needed */
+        
     </style>
 </head>
 
 <body class="bjorns-page">
+
+    <nav class="navbar">
+        <div class="navbar-brand">WebbuSignu</div>
+        <button class="nav-toggle" id="navToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-list" id="navList">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Henrik.html">Henrik</a></li>
+            <li><a href="Milton.html">Milton</a></li>
+            <li><a href="Bjorn.html">Björn</a></li>
+            <li><a href="Samir.html">Samir</a></li>
+        </ul>
+    </nav>
+
     <nav class="navbar">
         <!-- Your navbar content -->
     </nav>
@@ -75,5 +92,7 @@
             <strong class="bold-text"> - One of the many times ChatGPT is subjectively wrong. </strong>
         </p>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
